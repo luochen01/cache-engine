@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.ebay.app.raptor</groupId>
+		<artifactId>testParent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>..</relativePath>
+	</parent>
+
+	<artifactId>test.eba</artifactId>
+	<name>EBA For test</name>
+	<packaging>eba</packaging>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.ebay.raptor.app</groupId>
+			<artifactId>RaptorEBA</artifactId>
+			<scope>runtime</scope>
+			<type>eba</type>
+		</dependency>
+		<dependency>
+			<groupId>com.ebay.app.raptor</groupId>
+			<artifactId>test</artifactId>
+			<scope>runtime</scope>
+			<type>war</type>
+		</dependency>
+
+	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>com.ebay.devex.assembler</groupId>
+				<artifactId>assembler-maven-plugin</artifactId>
+			</plugin>
+
+			<plugin>
+				<groupId>com.ebay.osgi.build</groupId>
+				<artifactId>obrgen-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.aries</groupId>
+				<artifactId>eba-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>

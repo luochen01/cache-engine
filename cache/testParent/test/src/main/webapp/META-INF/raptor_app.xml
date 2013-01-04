@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="http://www.appregsvc.vip.ebay.com/appregres/xsd/raptor_app.xsd">
+  	<type>Web</type> 
+	<!-- Mandatory field -->
+  	<description>[description]</description>  
+  	<lifecycleState>Deployed</lifecycleState> 
+  	<issueURL>Enter your jira project url or equivalent</issueURL> 
+	<!-- Optional field: Default value will be used if not specified -->
+  	<urlStrategy></urlStrategy>
+  	<page-Map>
+    	<page>    	  
+		  <name>DefaultPage</name>			  
+	      <description>This default page that will be inserted for every application. The page id of the default page will be used
+	      for every page that is not registered with AR during development</description>
+	      <!-- Mandatory field -->
+	      <lifecycleState>Deployed</lifecycleState>
+	      <isAjax>false</isAjax>
+	      <isDefault>true</isDefault>
+	      <security> 
+			<authentication>NONE_REQUIRED</authentication> 
+			<authorization>true</authorization> 
+			<roleId>true</roleId> 
+			</security> 
+    	</page>    
+    <!-- Add new page entries here. For siteCatalystID, provide a value or leave as blank to generate one. Sample: -->
+   <!-- <page>
+      <name>New page name</name>
+      <description>new page desc</description>
+      <lifecycleState>Deployed</lifecycleState>
+      <isAjax>false</isAjax>
+      <isDefault>false</isDefault>
+     <parameters-Map>
+        <parameters key="siteCatalyst_sample">sampleId</parameters>
+        <parameters key="siteCatalyst_2"></parameters>
+     </parameters-Map>
+      <security>
+      	<authentication>L1AUTH</authentication>
+      	<authorization>true</authorization>
+      	<roleId>true</roleId>
+      </security>
+    </page>    -->
+  </page-Map>
+   	<!-- Optional field: true if your application invokes services that require an IAFToken -->
+  	<secureService>true</secureService>
+</application>

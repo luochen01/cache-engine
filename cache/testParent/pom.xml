@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.ebay.raptor</groupId>
+		<artifactId>RaptorParent</artifactId>
+		<version>1.4.0-RELEASE</version>
+	</parent>
+	
+	<groupId>com.ebay.app.raptor</groupId>
+	<artifactId>testParent</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+	<name>Samples Parent</name>
+	<description>Build All Sample Applications</description>
+
+	<modules>
+		<module>test</module>
+		<module>test.eba</module>		
+	</modules>
+	
+	<scm>
+		<connection>scm:git:git@github.scm.corp.ebay.com</connection>
+		<developerConnection>scm:git:git@github.scm.corp.ebay.com</developerConnection>
+		<url>git@github.scm.corp.ebay.com</url>
+	</scm>	
+	
+	<distributionManagement>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<url>http://nxraptor/content/repositories/snapshots/</url>			
+		</snapshotRepository>
+	</distributionManagement>
+    	
+	<!-- Configuration of repositories for dependency resolution -->
+	<repositories>
+		<!-- Raptor Bundles Repository -->
+		<!-- This is needed to locate the Raptor Parent project. Other repositories come from the parent. -->
+		<repository>
+			<id>releases</id>
+			<url>http://nxraptor/content/repositories/releases/</url>
+			<releases>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>	
+		<repository>
+			<id>thirdparty</id>
+			<url>http://nxraptor/content/repositories/thirdparty/</url>
+			<releases>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>		
+	</repositories>
+
+	<dependencyManagement>
+		<dependencies>	
+			<dependency>
+				<groupId>com.ebay.app.raptor</groupId>
+				<artifactId>test</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+				<type>war</type>		
+			</dependency>					
+		</dependencies>
+	</dependencyManagement>	    	
+
+</project>

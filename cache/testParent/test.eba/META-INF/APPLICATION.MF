@@ -1,0 +1,8 @@
+Application-Name: test.eba
+x-Raptor-TopLevelApp: com.ebay.app.raptor.test
+Application-SymbolicName: test.eba
+Application-ManifestVersion: 1.0
+Application-Version: 1.0.0.qualifier
+Application-Content: com.ebay.app.raptor.test
+Manifest-Version: 1.0
+

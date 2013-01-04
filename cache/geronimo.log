@@ -1,0 +1,335 @@
+[Framework Event Dispatcher] DEBUG org.apache.geronimo.framework.geronimo-pax-logging - BundleEvent STARTED
+Booting Geronimo Kernel (in Java 1.6.0)...
+Module  1/37 org.apache.geronimo.framework/j2ee-system/3.0.1-SNAPSHOT/car              started in   .000s
+Module  2/37 org.apache.geronimo.framework/rmi-naming/3.0.1-SNAPSHOT/car               started in   .112s
+Module  3/37 org.apache.geronimo.framework/plugin/3.0.1-SNAPSHOT/car                   started in   .088s
+Module  4/37 org.apache.geronimo.framework/j2ee-security/3.0.1-SNAPSHOT/car            started in   .241s
+Module  5/37 org.apache.geronimo.framework/server-security-config/3.0.1-SNAPSHOT/car   started in   .016s
+Module  6/37 org.apache.geronimo.framework/bundle-recorder/3.0.1-SNAPSHOT/car          started in   .003s
+Module  7/37 org.apache.geronimo.framework/geronimo-gbean-deployer/3.0.1-SNAPSHOT/car  started in   .148s
+Module  8/37 org.apache.geronimo.configs/j2ee-server/3.0.1-SNAPSHOT/car                started in   .020s
+Module  9/37 org.apache.geronimo.configs/j2ee-deployer/3.0.1-SNAPSHOT/car              started in   .077s
+Module 10/37 org.apache.geronimo.configs/bval-deployer/3.0.1-SNAPSHOT/car              started in   .084s
+Module 11/37 org.apache.geronimo.configs/transaction-1_6/3.0.1-SNAPSHOT/car            started in   .113s
+Module 12/37 org.apache.geronimo.configs/jasper/3.0.1-SNAPSHOT/car                     started in   .007s
+Module 13/37 org.apache.geronimo.configs/tomcat7/3.0.1-SNAPSHOT/car                    started in  2.464s
+Module 14/37 org.apache.geronimo.configs/connector-deployer-1_6/3.0.1-SNAPSHOT/car     started in   .039s
+Module 15/37 org.apache.geronimo.configs/tomcat7-deployer/3.0.1-SNAPSHOT/car           started in   .025s
+Module 16/37 org.apache.geronimo.configs/web-extender/3.0.1-SNAPSHOT/car               started in   .005s
+Module 17/37 org.apache.geronimo.configs/hot-deployer/3.0.1-SNAPSHOT/car               started in   .009s
+Module 18/37 org.apache.geronimo.configs/jasper-deployer/3.0.1-SNAPSHOT/car            started in   .005s
+Module 19/37 org.apache.geronimo.configs/myfaces/3.0.1-SNAPSHOT/car                    started in   .009s
+Module 20/37 org.apache.geronimo.configs/myfaces-deployer/3.0.1-SNAPSHOT/car           started in   .165s
+Module 21/37 org.apache.geronimo.configs/sharedlib-extender/3.0.1-SNAPSHOT/car         started in   .003s
+Module 22/37 org.apache.geronimo.configs/sharedlib/3.0.1-SNAPSHOT/car                  started in   .016s
+Module 23/37 org.apache.geronimo.configs/aries/3.0.1-SNAPSHOT/car                      started in   .006s
+Module 24/37 org.apache.geronimo.configs/aries-deployer/3.0.1-SNAPSHOT/car             started in   .003s
+Module 25/37 org.apache.geronimo.configs/persistence-jpa20-deployer/3.0.1-SNAPSHOT/car started in   .010s
+Module 26/37 org.apache.geronimo.configs/openjpa2/3.0.1-SNAPSHOT/car                   started in   .003s
+Module 27/37 org.apache.geronimo.configs/system-database/3.0.1-SNAPSHOT/car            started in   .614s
+Module 28/37 org.apache.geronimo.plugins/pluto-support/3.0.1-SNAPSHOT/car              started in   .004s
+Module 29/37 org.apache.geronimo.plugins/console-tomcat/3.0.1-SNAPSHOT/car             started in   .591s
+Module 30/37 org.apache.geronimo.plugins/plugin-console-tomcat/3.0.1-SNAPSHOT/car      started in   .106s
+Module 31/37 org.apache.geronimo.configs/openejb/3.0.1-SNAPSHOT/car                    started in   .518s
+Module 32/37 org.apache.geronimo.configs/openejb-deployer/3.0.1-SNAPSHOT/car           started in   .027s
+Module 33/37 org.apache.geronimo.configs/openwebbeans/3.0.1-SNAPSHOT/car               started in   .003s
+Module 34/37 org.apache.geronimo.configs/openwebbeans-deployer/3.0.1-SNAPSHOT/car      started in   .010s
+Module 35/37 org.apache.geronimo.configs/javamail/3.0.1-SNAPSHOT/car                   started in   .015s
+Module 36/37 org.apache.geronimo.plugins/plancreator-console-tomcat/3.0.1-SNAPSHOT/car started in   .056s
+Module 37/37 application/RaptorEBA/1.1.0/eba                                          Found config file at bundleresource://304.fwk586883835/config/ukernelcore/logging.properties
+2013-01-04 15:50:03,461 WARN  [] java.util.logging has been reset by application or component
+java.util.logging.ErrorManager: GENERIC_FAILURE
+Error message - Invalid property value for com.ebay.kernel.logger.rt.EbayLogFileHandler:formatter/com.ebay.kernel.logger.rt.EbayLogFormatter
+Exception - java.security.PrivilegedActionException: java.lang.ClassNotFoundException: com.ebay.kernel.logger.rt.EbayLogFormatter
+RaptorActivator: setting configRoot = file:/E:/RIDE/Ride-1.3/geronimo3/raptorconfig/config/
+Found config file at file:/E:/RIDE/Ride-1.3/geronimo3/raptorconfig/config/config/ukernelcore/logging.properties
+2013-01-04 15:50:03,695 WARN  [] java.util.logging has been reset by application or component
+---> RaptorInitializer Starts <---
+2013-01-04 15:50:03,896 WARN  [socketintercept] 15:50:03 896 - 0315101/main/notSet/no_impl/SocketInterceptorPropertyMgr.makeBean()  could not load file location (config\ukernel) file=SocketInterceptorConfig.xml 
+2013-01-04 15:50:03,901 WARN  [socketintercept] 15:50:03 901 - 0315101/main/notSet/no_impl/SocketInterceptorPropertyMgr.makeBean()  could not load file package (com.ebay.kernel.socketintercept) file=SocketInterceptorConfig.xml 
+2013-01-04 15:50:04,927 WARN  [socketintercept] 15:50:04 927 - 0315101/main/notSet/no_impl/FINAL Enabled=true impltype=NATIVE 
+2013-01-04 15:50:04,928 WARN  [socketintercept] 15:50:04 927 - 0315101/main/notSet/NATIVE/SocketInterceptor.assignImplType final implType=NATIVE 
+module init order:
+0:com.ebay.integ.dal.Module
+1: topLevel - com.ebay.integ.dal.DalInit$PostInitModule
+initializing 'com.ebay.integ.dal.DalInit$2' {
+initializing 'com.ebay.integ.dal.Module$InitializationManager' {
+0---com.ebay.kernel.configuration.configcommand.rt.ConfigCommandInitializer$1--- initializing {
+0---com.ebay.kernel.configuration.configcommand.rt.ConfigCommandInitializer$1--- initializing } DONE - time 1ms
+1---com.ebay.integ.dal.dsc.DscMaintainerManager$1--- initializing {
+Found config file at file:/E:/RIDE/Ride-1.3/geronimo3/raptorconfig/config/config/kerneldal/DSC.properties
+Found config file at file:/E:/RIDE/Ride-1.3/geronimo3/raptorconfig/config/config/kerneldal/DSCxtra.properties
+Found config file at file:/E:/RIDE/Ride-1.3/geronimo3/raptorconfig/config/config/kerneldal/
+2013-01-04 15:50:05,031 WARN  [repo] Registering: DSC_REPO_CACHEDB_RO, class=com.ebay.integ.dal.dsc.repo.db.DscRepoCiaDb, props=repoName=DSC_cachedb-ro,repoUser=staging_lookup_app, m_repoPassword=*****, m_repoMaxPoolSize=2, m_repoURL=jdbc:oracle:thin:@lookup-read.vip.qa.ebay.com:1522:LOOKUP, m_repoOtherProps=null, m_repoMaxPoolSize=2
+2013-01-04 15:50:05,052 WARN  [repo] Registering: DSC_REPO_CACHEDB_RW, class=com.ebay.integ.dal.dsc.repo.db.DscRepoCiaDb, props=repoName=DSC_cachedb-rw,repoUser=stg_dsc_app, m_repoPassword=*****, m_repoMaxPoolSize=2, m_repoURL=jdbc:oracle:thin:@s8i.vip.qa.ebay.com:1521:S8i, m_repoOtherProps=null, m_repoMaxPoolSize=2
+2013-01-04 15:50:05,055 WARN  [repo] Registering: DSC_REPO_EGRIDDB_RO, class=com.ebay.integ.dal.dsc.repo.db.DscRepoCiaDb, props=repoName=DSC_egrid-ro,repoUser=healthcheck_app, m_repoPassword=*****, m_repoMaxPoolSize=2, m_repoURL=jdbc:oracle:thin:@turbo.vip.qa.ebay.com:1521:TURBO, m_repoOtherProps=null, m_repoMaxPoolSize=2
+2013-01-04 15:50:05,055 WARN  [repo] Registering: DSC_REPO_EGRIDDB_RW, class=com.ebay.integ.dal.dsc.repo.db.DscRepoCiaDb, props=repoName=DSC_egrid-rw,repoUser=healthcheck_app, m_repoPassword=*****, m_repoMaxPoolSize=2, m_repoURL=jdbc:oracle:thin:@turbo.vip.qa.ebay.com:1521:TURBO, m_repoOtherProps=null, m_repoMaxPoolSize=2
+1---com.ebay.integ.dal.dsc.DscMaintainerManager$1--- initializing } DONE - time 126ms
+2013-01-04 15:50:05,064 WARN  [dsc] DscMaintainer: starting run()...
+2---com.ebay.integ.dal.map.ConnectionManager$1--- initializing {
+2---com.ebay.integ.dal.map.ConnectionManager$1--- initializing } DONE - time 0ms
+3---com.ebay.integ.dal.cm.rt.CmInitializer$1--- initializing {
+Found config file at file:/E:/RIDE/Ride-1.3/geronimo3/raptorconfig/config/config/kerneldal/CmInit.properties
+---------- Registering JDBC Driver Adapter: com.ebay.integ.dal.jdbc.rt.MySqlJdbcDriverAdapter ----------
+---------- Registering JDBC Driver Adapter: com.ebay.mongodriver.jdbc.MongoJdbcDriverAdapter ----------
+---------- Registering JDBC Driver Adapter: com.ebay.integ.dal.jdbc.rt.PUSHvmJdbcDriverAdapter ----------
+---------- Registering JDBC Driver Adapter: com.ebay.integ.dal.jdbc.rt.OracleJdbcDriverAdapter ----------
+Found config file at file:/E:/RIDE/Ride-1.3/geronimo3/raptorconfig/config/config/kerneldal/CmInit.properties
+---------- Connection Manager using Pool Factory: com.ebay.integ.dal.dsc.DscConnectionPoolFactory ----------
+4---com.ebay.integ.dal.dsc.DscConnectionPoolFactory$1--- initializing {
+---------- DscConnectionPoolFactory: current DscInfo: version=426, checksum=21734591, created=2012-12-20_21:18:40, modified=2012-12-20_21:18:40, dbenv=feature, deplslot=, dnsregion=CORP, pool=raptor-app, hwtype=, host=D-SHC-00436943 ----------
+2013-01-04 15:50:09,481 WARN  [DscConnectionPoolFactory] Fetching datasources configuration from DB for version=426, DSC_ENV=null and generating the following files: 
+  E:\RIDE\Ride-1.3\geronimo3\raptorconfig\config\config\kerneldal\dsc\dsimport.xml
+  E:\RIDE\Ride-1.3\geronimo3\raptorconfig\config\config\kerneldal\dsc\v3hostmapping.txt
+  E:\RIDE\Ride-1.3\geronimo3\raptorconfig\config\config\kerneldal\dsc\tnsnames.ora
+---------- DscConnectionPoolFactory: using file: E:\RIDE\Ride-1.3\geronimo3\raptorconfig\config\config\kerneldal\dsc\dsimport.xml ----------
+2013-01-04 15:50:21,495 WARN  [DscConnectionPoolFactory] ---------- DscConnectionPoolFactory: using file: E:\RIDE\Ride-1.3\geronimo3\raptorconfig\config\config\kerneldal\dsc\dsimport.xml ----------
+2013-01-04 15:50:21,495 WARN  [DscConnectionPoolFactory] ---------- DscConnectionPoolFactory: creating Connection pools for 1874 hosts ----------
+4---com.ebay.integ.dal.dsc.DscConnectionPoolFactory$1--- initializing } DONE - time 16366ms
+3---com.ebay.integ.dal.cm.rt.CmInitializer$1--- initializing } DONE - time 16482ms
+5---com.ebay.integ.dal.jdbc.rt.JdbcDriverComponentStatus$1--- initializing {
+5---com.ebay.integ.dal.jdbc.rt.JdbcDriverComponentStatus$1--- initializing } DONE - time 15ms
+6---com.ebay.integ.dal.ddr.LogicalToPhysicalDatasourceMap$1--- initializing {
+6---com.ebay.integ.dal.ddr.LogicalToPhysicalDatasourceMap$1--- initializing } DONE - time 1ms
+7---com.ebay.integ.dal.validation.rt.ApplicationDataSourceValidator$1--- initializing {
+7---com.ebay.integ.dal.validation.rt.ApplicationDataSourceValidator$1--- initializing } DONE - time 0ms
+8---com.ebay.integ.dal.ddr.rt.DDRMain$1--- initializing {
+Found config file at file:/E:/RIDE/Ride-1.3/geronimo3/raptorconfig/config/config/kerneldal/DDR.properties
+Found config file at file:/E:/RIDE/Ride-1.3/geronimo3/raptorconfig/config/config/kerneldal/rules.txt
+2013-01-04 15:50:21,570 WARN  [rt] refreshDDR: using file: E:\RIDE\Ride-1.3\geronimo3\raptorconfig\config\config\kerneldal\dsc\v3hostmapping.txt
+Matched table!
+8---com.ebay.integ.dal.ddr.rt.DDRMain$1--- initializing } DONE - time 236ms
+9---com.ebay.integ.dal.map.NonAsciiScanConfigBean$1--- initializing {
+9---com.ebay.integ.dal.map.NonAsciiScanConfigBean$1--- initializing } DONE - time 1ms
+10---com.ebay.integ.dal.map.parallel.ParallelQueryStatsManager$1--- initializing {
+10---com.ebay.integ.dal.map.parallel.ParallelQueryStatsManager$1--- initializing } DONE - time 1ms
+11---com.ebay.integ.dal.map.queryintercept.QueryInterceptManager$1--- initializing {
+11---com.ebay.integ.dal.map.queryintercept.QueryInterceptManager$1--- initializing } DONE - time 9ms
+12---com.ebay.integ.dal.map.rt.MapInitializer$1--- initializing {
+12---com.ebay.integ.dal.map.rt.MapInitializer$1--- initializing } DONE - time 22ms
+13---com.ebay.integ.dal.util.common.MapInitializer$1--- initializing {
+13---com.ebay.integ.dal.util.common.MapInitializer$1--- initializing } DONE - time 67ms
+14---com.ebay.integ.dal.map.QueryEngine$1--- initializing {
+14---com.ebay.integ.dal.map.QueryEngine$1--- initializing } DONE - time 12ms
+15---com.ebay.integ.dal.cache2.CacheGlobalConfigBean$1--- initializing {
+15---com.ebay.integ.dal.cache2.CacheGlobalConfigBean$1--- initializing } DONE - time 11ms
+16---com.ebay.integ.dal.cache2.CacheMaintainerManager$1--- initializing {
+16---com.ebay.integ.dal.cache2.CacheMaintainerManager$1--- initializing } DONE - time 1ms
+17---com.ebay.integ.dal.cache2.backingstore.nativeheap.JNIBackingStore$1--- initializing {
+2013-01-04 15:50:21,928 ERROR [nativeheap] JNIBackingStore failed to load: java.lang.NoClassDefFoundError: com.ebay.jni.backingstore.nativeheap.NativeJNIBackingStore
+17---com.ebay.integ.dal.cache2.backingstore.nativeheap.JNIBackingStore$1--- initializing } DONE - time 6ms
+18---com.ebay.integ.dal.cache2.ThreadLocalCacheFactory$3--- initializing {
+18---com.ebay.integ.dal.cache2.ThreadLocalCacheFactory$3--- initializing } DONE - time 0ms
+19---com.ebay.integ.dal.cache2.CacheCALReporterManager$1--- initializing {
+19---com.ebay.integ.dal.cache2.CacheCALReporterManager$1--- initializing } DONE - time 0ms
+20---com.ebay.integ.dal.cache2.CacheInitializer$1--- initializing {
+2013-01-04 15:50:21,929 WARN  [cache2] Parallel cache init was enabled but has been disabled, because lazy cache init was enabled. This is expected for development and o.k. for batch. Was lazy init set by the method call on CacheInitializer in code: false
+20---com.ebay.integ.dal.cache2.CacheInitializer$1--- initializing } DONE - time 1ms
+21---com.ebay.integ.dal.cache2.backingstore.COLDBackingStoreCB$1--- initializing {
+21---com.ebay.integ.dal.cache2.backingstore.COLDBackingStoreCB$1--- initializing } DONE - time 0ms
+22---com.ebay.integ.dal.cache2.CacheComponentStatusMgr$1--- initializing {
+22---com.ebay.integ.dal.cache2.CacheComponentStatusMgr$1--- initializing } DONE - time 2ms
+23---com.ebay.integ.dal.ddr.rt.MarkeddownLogicalSourcesBean$1--- initializing {
+23---com.ebay.integ.dal.ddr.rt.MarkeddownLogicalSourcesBean$1--- initializing } DONE - time 8ms
+24---com.ebay.integ.dal.cache2.CacheLoaderPolicyFactory$2--- initializing {
+Found config file at file:/E:/RIDE/Ride-1.3/geronimo3/raptorconfig/config/config/kerneldal/CachePolicy.txt
+24---com.ebay.integ.dal.cache2.CacheLoaderPolicyFactory$2--- initializing } DONE - time 3ms
+25---com.ebay.integ.dal.init.DALInitPolicyFactory$1--- initializing {
+25---com.ebay.integ.dal.init.DALInitPolicyFactory$1--- initializing } DONE - time 0ms
+26---com.ebay.kernel.socketintercept.SocketInterceptorPropertyMgr$1--- initializing {
+2013-01-04 15:50:22,945 WARN  [socketintercept] 15:50:22 945 - 0315101/main/notSet/NATIVE/FINAL Enabled=true impltype=NATIVE 
+2013-01-04 15:50:22,945 WARN  [socketintercept] 15:50:22 945 - 0315101/main/notSet/NATIVE/Already running enabled=true impltype=NATIVE 
+26---com.ebay.kernel.socketintercept.SocketInterceptorPropertyMgr$1--- initializing } DONE - time 1002ms
+27---com.ebay.integ.dal.GlobalDalTaskExecutorConfigBean$1--- initializing {
+27---com.ebay.integ.dal.GlobalDalTaskExecutorConfigBean$1--- initializing } DONE - time 22ms
+28---com.ebay.integ.dal.GlobalDalTaskExecutor$1--- initializing {
+2013-01-04 15:50:22,969 WARN  [dal] GlobalDalTaskExecutor: registered listener
+28---com.ebay.integ.dal.GlobalDalTaskExecutor$1--- initializing } DONE - time 1ms
+initializing 'com.ebay.integ.dal.Module$InitializationManager' } DONE - time 18033ms
+2013-01-04 15:50:22,969 WARN  [initialization] ALERT-Mod-Init slow!!! initializing 'com.ebay.integ.dal.Module$InitializationManager' } DONE - time 18033ms
+initializing 'com.ebay.integ.dal.DalInit$PostInitModule.InitManager' {
+29---com.ebay.integ.dal.DalInit$1--- initializing {
+29---com.ebay.integ.dal.DalInit$1--- initializing } DONE - time 0ms
+initializing 'com.ebay.integ.dal.DalInit$PostInitModule.InitManager' } DONE - time 2ms
+post initializing 'com.ebay.integ.dal.DalInit$2' wait time - 1ms
+initializing 'com.ebay.integ.dal.DalInit$2' } DONE - time 18038ms
+Initializing EboxInitializer.init(eboxInitConfig)..... 
+Resource repo config is not provided by users. Resource repo init will be skipped
+Resource and config roots:
+  - file:/E:/RIDE/Ride-1.3/geronimo3/raptorconfig/
+  - file:/E:/RIDE/Ride-1.3/geronimo3/raptorconfig/config/
+[2013-01-04 15:50:23.037] initializing 'com.ebay.ebox.system.runtime.InitializationManager' {
+[2013-01-04 15:50:23.037] 30---com.ebay.ebox.system.runtime.LoggerSvcInitializable--- initializing {
+[2013-01-04 15:50:23.038] 30---com.ebay.ebox.system.runtime.LoggerSvcInitializable--- initializing } DONE - time 1ms
+[2013-01-04 15:50:23.038] 31---com.ebay.ebox.system.runtime.CalSvcInitializable--- initializing {
+Initializing Cal Service..
+could not find configDebug-ebox.txt
+[2013-01-04 15:50:23.121] 31---com.ebay.ebox.system.runtime.CalSvcInitializable--- initializing } DONE - time 83ms
+[2013-01-04 15:50:23.122] 32---com.ebay.ebox.system.runtime.ConfigManagerInitializable--- initializing {
+[2013-01-04 15:50:23.128] 32---com.ebay.ebox.system.runtime.ConfigManagerInitializable--- initializing } DONE - time 6ms
+[2013-01-04 15:50:23.128] 33---com.ebay.ebox.system.runtime.GcListenerInitializable--- initializing {
+[2013-01-04 15:50:23.134] 33---com.ebay.ebox.system.runtime.GcListenerInitializable--- initializing } DONE - time 5ms
+[2013-01-04 15:50:23.134] 34---com.ebay.ebox.system.runtime.MBeanServerInitializable--- initializing {
+[2013-01-04 15:50:23.134] 34---com.ebay.ebox.system.runtime.MBeanServerInitializable--- initializing } DONE - time 0ms
+[2013-01-04 15:50:23.134] 35---com.ebay.ebox.system.runtime.PerformanceMetricsInitializable--- initializing {
+[2013-01-04 15:50:23.416] 35---com.ebay.ebox.system.runtime.PerformanceMetricsInitializable--- initializing } DONE - time 282ms
+[2013-01-04 15:50:23.416] 36---com.ebay.af.common.spi.impl.SpiImplInitializer$1--- initializing {
+[2013-01-04 15:50:23.423] 36---com.ebay.af.common.spi.impl.SpiImplInitializer$1--- initializing } DONE - time 7ms
+[2013-01-04 15:50:23.423] 37---com.ebay.ebox.system.runtime.SpiWebRequestInitializer--- initializing {
+[2013-01-04 15:50:23.426] 37---com.ebay.ebox.system.runtime.SpiWebRequestInitializer--- initializing } DONE - time 3ms
+[2013-01-04 15:50:23.426] 38---com.ebay.ebox.system.runtime.DalInitializable--- initializing {
+[2013-01-04 15:50:23.429] 38---com.ebay.ebox.system.runtime.DalInitializable--- initializing } DONE - time 3ms
+[2013-01-04 15:50:23.429] 39---com.ebay.ebox.system.runtime.EboxTrackingInitializable--- initializing {
+[2013-01-04 15:50:23.43] 39---com.ebay.ebox.system.runtime.EboxTrackingInitializable--- initializing } DONE - time 1ms
+[2013-01-04 15:50:23.43] 40---com.ebay.ebox.system.runtime.ThreadPoolSizeBeanInitializable--- initializing {
+[2013-01-04 15:50:23.439] 40---com.ebay.ebox.system.runtime.ThreadPoolSizeBeanInitializable--- initializing } DONE - time 9ms
+[2013-01-04 15:50:23.439] initializing 'com.ebay.ebox.system.runtime.InitializationManager' } DONE - time 402ms
+2013-01-04 15:50:23,442 WARN  [runtime] ClassLoader instance is not URLClassLoader, hence BuildInfo is not loaded from the jars
+[2013-01-04 15:50:23.451] module init order:
+[2013-01-04 15:50:23.451] 0:com.ebay.ebox.piggyback.PbAuditModule
+[2013-01-04 15:50:23.451] 1:com.ebay.globalenv.Module
+[2013-01-04 15:50:23.451] 2: topLevel - com.ebay.raptor.kernel.init.Module
+[2013-01-04 15:50:23.451] initializing 'com.ebay.ebox.system.runtime.EboxRuntime' {
+[2013-01-04 15:50:23.451] initializing 'com.ebay.ebox.piggyback.PbAuditModule$InitializationManager' {
+[2013-01-04 15:50:23.452] 41---com.ebay.ebox.piggyback.PbAuditSequenceInitializer$1--- initializing {
+Initializing AuditSequence......
+2013-01-04 15:50:23,453 WARN  [dao] This DAO=com.ebay.ebox.piggyback.dao.PbAuditDoDAO$SequenceGenDAO is lazy initialized. This may cause issues. Fix required: This DAO should be added to the appropriate MapInitializer.
+[2013-01-04 15:50:23.455] 41---com.ebay.ebox.piggyback.PbAuditSequenceInitializer$1--- initializing } DONE - time 3ms
+[2013-01-04 15:50:23.456] initializing 'com.ebay.ebox.piggyback.PbAuditModule$InitializationManager' } DONE - time 4ms
+[2013-01-04 15:50:23.456] initializing 'com.ebay.globalenv.Module.InitManager' {
+[2013-01-04 15:50:23.456] 42---com.ebay.globalenv.Module$2--- initializing {
+[2013-01-04 15:50:23.456] 42---com.ebay.globalenv.Module$2--- initializing } DONE - time 0ms
+[2013-01-04 15:50:23.456] 43---com.ebay.globalenv.policy.PolicyConfig$1--- initializing {
+[2013-01-04 15:50:23.479] 43---com.ebay.globalenv.policy.PolicyConfig$1--- initializing } DONE - time 22ms
+[2013-01-04 15:50:23.479] 44---com.ebay.globalenv.Module$1--- initializing {
+[2013-01-04 15:50:23.482] 44---com.ebay.globalenv.Module$1--- initializing } DONE - time 3ms
+[2013-01-04 15:50:23.482] initializing 'com.ebay.globalenv.Module.InitManager' } DONE - time 26ms
+[2013-01-04 15:50:23.482] initializing 'com.ebay.raptor.kernel.init.InitializationManager' {
+[2013-01-04 15:50:23.482] 45---com.ebay.raptor.kernel.sitespeed.MapInitializer$1--- initializing {
+[2013-01-04 15:50:23.483] 45---com.ebay.raptor.kernel.sitespeed.MapInitializer$1--- initializing } DONE - time 1ms
+[2013-01-04 15:50:23.483] 46---com.ebay.raptor.kernel.sitespeed.TimeSynch$1--- initializing {
+[2013-01-04 15:50:23.488] 46---com.ebay.raptor.kernel.sitespeed.TimeSynch$1--- initializing } DONE - time 5ms
+[2013-01-04 15:50:23.488] initializing 'com.ebay.raptor.kernel.init.InitializationManager' } DONE - time 6ms
+[2013-01-04 15:50:23.488] post initializing 'com.ebay.ebox.system.runtime.EboxRuntime' wait time - 0ms
+[2013-01-04 15:50:23.489] initializing 'com.ebay.ebox.system.runtime.EboxRuntime' } DONE - time 38ms
+2013-01-04 15:50:23,745 WARN  [config] Unable to load ClientConfig.xml from config root META-INF/soa/client/config/FeatureContingencyServiceConsumer/ClientConfig.xml(will use default : META-INF/soa/client/config/)
+2013-01-04 15:50:23,835 WARN  [runtime] Cannot track this eBox project. Data = idsite=1&IP=D-SHC-00436943&h=15&OSN=Windows+7&USER=chluo&m=50&VMD=IBM+Corporation&env=&url=http%3A%2F%2Febox-analytics.qa.ebay.com&OSV=6.1+build+7601+Service+Pack+1&s=23&action_name=ebox&VMN=IBM+J9+VM&OSA=amd64&VMV=2.4
+Creating repo ...
+2013-01-04 15:50:25,961 WARN  [impl] The resource repo cache is empty; appears nobody is using resource reop; update is canceled
+ ######################### Successfully loaded Top Level Bundle list json.
+Found bundle.properties file for com.ebay.kernel.DomainLookup
+Found bundle.properties file for com.ebay.webres.WebResSDK
+Found bundle.properties file for com.ebay.kernel.kernelMerged
+Found bundle.properties file for com.ebay.content.ContentSDK
+Found bundle.properties file for com.ebay.raptor.core.RaptorMetadataRuntime
+Found bundle.properties file for com.ebay.raptor.core.RaptorCoreAnnotations
+Found bundle.properties file for com.ebay.kernel.CookieUtils
+Found bundle.properties file for com.ebay.utils.eBayPerfMon
+Found bundle.properties file for com.ebay.raptor.core.RaptorKernel
+Found bundle.properties file for com.ebay.raptor.core.PermutationAdaptor
+Found bundle.properties file for com.ebay.raptor.core.ConfigWeb
+Found bundle.properties file for com.ebay.resource.ResourceServer
+2013-01-04 15:50:26,355 WARN  [impl] Fri Jan 04 15:50:26 CST 2013 invoke contextInitialized = 72ms
+Found bundle.properties file for com.ebay.raptor.core.RaptorWeb
+module init order:
+0: topLevel - com.ebay.raptor.web.Module
+initializing 'com.ebay.raptor.web.Module' {
+initializing 'com.ebay.raptor.web.InitializationManager' {
+initializing 'com.ebay.raptor.web.InitializationManager' } DONE - time 0ms
+post initializing 'com.ebay.raptor.web.Module' wait time - 0ms
+initializing 'com.ebay.raptor.web.Module' } DONE - time 0ms
+***********************************************
+**** Application RaptorEBA active ****
+***********************************************
+ started in 31.015s
+2013-01-04 15:50:26,631 WARN  [TomcatModuleBuilder] Web application . does not contain a WEB-INF/geronimo-web.xml deployment plan.  This may or may not be a problem, depending on whether you have things like resource references that need to be resolved.  You can also give the deployer a separate deployment plan file on the command line.
+2013-01-04 15:50:27,499 WARN  [impl] 
+*******************************
+**** Web context /admin done initializing ****
+*******************************
+
+2013-01-04 15:50:27,510 WARN  [TomcatModuleBuilder] Web application . does not contain a WEB-INF/geronimo-web.xml deployment plan.  This may or may not be a problem, depending on whether you have things like resource references that need to be resolved.  You can also give the deployer a separate deployment plan file on the command line.
+2013-01-04 15:50:27,826 WARN  [impl] 
+*******************************
+**** Web context /ressvr done initializing ****
+*******************************
+
+ServeltContext Raptor is initialized
+2013-01-04 15:50:29,489 WARN  [impl] 
+*******************************
+**** Web context / done initializing ****
+*******************************
+
+Startup completed in 44.482s seconds
+  Listening on Ports:
+    1099 0.0.0.0 RMI Naming
+    1527 0.0.0.0 Derby Connector
+    4201 0.0.0.0 OpenEJB Daemon
+    8080 0.0.0.0 Tomcat Connector HTTP NIO HTTP-8080
+    8081 0.0.0.0 Tomcat Connector HTTP NIO HTTP-8081
+    8082 0.0.0.0 Tomcat Connector HTTP NIO HTTP-8082
+    8083 0.0.0.0 Tomcat Connector HTTP NIO HTTP-8083
+    8443 0.0.0.0 Tomcat Connector HTTPS BIO TomcatWebSSLConnector
+    9999 0.0.0.0 JMX Remoting Connector
+
+  Started Application Modules:
+    EAR: org.apache.geronimo.plugins/console-tomcat/3.0.1-SNAPSHOT/car
+    RAR: org.apache.geronimo.configs/system-database/3.0.1-SNAPSHOT/car
+    WAR: default/RaptorWeb/1.0.0/wab
+    WAR: default/com.ebay.raptor.core.ConfigWeb/1357285826431/wab
+    WAR: default/com.ebay.resource.ResourceServer/1357285827504/wab
+    WAR: org.apache.geronimo.plugins/plancreator-console-tomcat/3.0.1-SNAPSHOT/car
+    WAR: org.apache.geronimo.plugins/plugin-console-tomcat/3.0.1-SNAPSHOT/car
+
+  Web Applications:
+    /
+    /admin
+    /console
+    /console-base
+    /plan-creator
+    /plugin
+    /ressvr
+
+Geronimo Application Server started
+ConsoleFrontController::init()
+ConsoleFrontController::init() - DONE
+2013-01-04 15:50:34,225 ERROR [console] D-SHC-00436943.corp.ebay.com at /E:/RIDE/Ride-1.3/geronimo3/raptorconfig/  doesn't have WEB-INF/config/OdbInfo.properties.
+Found bundle.properties file for com.ebay.app.raptor.cache
+2013-01-04 15:50:38,962 WARN  [NamespaceManager] Bundle Apache Geronimo Bundles: dwr-3.0.M1 (org.apache.geronimo.bundles.dwr) cannot see class [org.springframework.beans.factory.xml.NamespaceHandlerResolver]; ignoring its namespace handlers
+Found bundle.properties file for com.ebay.app.raptor.test
+2013-01-04 15:50:39,307 WARN  [TomcatModuleBuilder] Web application . does not contain a WEB-INF/geronimo-web.xml deployment plan.  This may or may not be a problem, depending on whether you have things like resource references that need to be resolved.  You can also give the deployer a separate deployment plan file on the command line.
+2013-01-04 15:50:41,345 WARN  [impl] The resource repo cache is empty; appears nobody is using resource reop; update is canceled
+com.ebay.resource.repository.impl.ResourceRepositoryImpl has been set!
+2013-01-04 15:50:41,400 WARN  [impl] 
+*******************************
+**** Web context /test done resource externalization: ****:288
+2013-01-04 15:50:41,400 WARN  [impl] 
+*******************************
+**** Web context /test done initializing ****
+*******************************
+
+ ######################### Turning on bundle com.ebay.app.raptor.test
+Bundle initialization status...
+com.ebay.app.raptor.test=3
+***********************************************
+**** All Top Level Bundles are up! Enabling traffic! ****
+**** ValidateInternals: http://127.0.0.1:8080/admin/v3console/ValidateInternals ****
+***********************************************
+***********************************************
+**** Application test.eba active ****
+***********************************************
+2013-01-04 15:51:09,957 WARN  [impl] The resource repo cache is empty; appears nobody is using resource reop; update is canceled
+2013-01-04 15:57:45,211 WARN  [impl] The resource repo cache is empty; appears nobody is using resource reop; update is canceled
+2013-01-04 16:01:09,972 WARN  [impl] The resource repo cache is empty; appears nobody is using resource reop; update is canceled
+2013-01-04 16:07:45,244 WARN  [impl] The resource repo cache is empty; appears nobody is using resource reop; update is canceled
+2013-01-04 16:11:10,055 WARN  [impl] The resource repo cache is empty; appears nobody is using resource reop; update is canceled
+2013-01-04 16:17:45,251 WARN  [impl] The resource repo cache is empty; appears nobody is using resource reop; update is canceled
+2013-01-04 16:21:10,068 WARN  [impl] The resource repo cache is empty; appears nobody is using resource reop; update is canceled
+2013-01-04 16:27:45,257 WARN  [impl] The resource repo cache is empty; appears nobody is using resource reop; update is canceled
+2013-01-04 16:31:10,083 WARN  [impl] The resource repo cache is empty; appears nobody is using resource reop; update is canceled
+2013-01-04 16:37:45,264 WARN  [impl] The resource repo cache is empty; appears nobody is using resource reop; update is canceled
+2013-01-04 16:41:10,098 WARN  [impl] The resource repo cache is empty; appears nobody is using resource reop; update is canceled
+2013-01-04 16:47:45,271 WARN  [impl] The resource repo cache is empty; appears nobody is using resource reop; update is canceled
+---------- ConnectionManager JDBC Driver Name/Version: Oracle JDBC driver / 10.2.0.2.0
+2013-01-04 16:50:26,862 ERROR [schedulednotify] ScheduledNotification took 3355 to complete, which is more than maximum expected completion in 1000ms: ScheduledNotification:time:2013-01-04 16:50:23.488;desc:null;dataClass:null;listenerClass:com.ebay.raptor.kernel.sitespeed.TimeSynchCacheBean$RefreshTimeSynchTask;inProgress:true;timeStarted:2013-01-04 16:50:23.507
+2013-01-04 16:51:10,113 WARN  [impl] The resource repo cache is empty; appears nobody is using resource reop; update is canceled

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentContract id="test.Sample" version="2.0"
+                 xmlns="http://www.ebay.com/2006/v4/content"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://www.ebay.com/2006/v4/content ../../schema/V4Content2.xsd">
+        <ContentSpecRef defaultFamily="Text" id="EbayContentSpec"/>
+        
+        <ContentInstance>
+              <ContentUnit id="welcome" nillable="false" />
+        </ContentInstance>
+</ContentContract>

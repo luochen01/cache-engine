@@ -1,0 +1,299 @@
+/*** Resets ***/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+}
+
+body {
+	line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+	display:block;
+}
+
+nav ul {
+	list-style:none;
+}
+
+caption{
+	text-align:left;
+	font-weight:normal;
+	float:none !important;
+}
+
+blockquote, q {
+	quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content:'';
+	content:none;
+}
+
+blockquote {
+	margin:1.5em;
+	color:#555;
+	font-style:italic;
+	font-family:serif;
+}
+
+ul, ol{
+	margin:0 1.5em 1.5em 0;
+	padding-left:1.5em;
+}
+
+li ul, li ol {
+	margin:0;
+}
+
+dl {
+	margin:0 0 1.5em 0;
+}
+
+dl dt {
+	font-weight:bold;
+}
+
+dd {
+	margin-left:1.5em;
+}
+
+ins {
+	color:#000;
+	background-color:#ff9;
+	text-decoration:none;
+}
+
+
+
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+hr {
+	display:block;
+	height:1px;
+	border:0;
+	border-top:1px solid #cccccc;
+	margin:1em 0;
+	padding:0;
+}
+
+input, select {
+	vertical-align:middle;
+}
+
+a img {
+	border:0 none;
+}
+
+/**** Typography ****/
+body {
+	font-size:14px;
+	color:#333;
+	background-color:#fff;
+	font-family:Arial, Sans-Serif, Verdana;
+}
+
+.bg-wrapper{
+	width:100%;
+	height:100%;
+	background: url(${res.img.local.raptorBg_jpg}) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	filter: alpha(opacity=50);  
+    -moz-opacity: 0.5;  
+    -khtml-opacity: 0.5; 
+	opacity: .5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight:normal;
+}
+
+h1 {
+	font-size:1.846em;
+	line-height:1.95em;
+	margin-bottom: 0.5em;
+	font-family:Trebuchet MS, Arial, Serif;
+}
+
+h2 {
+	font-size:1.538em;
+	line-height:1.70em;
+	margin-bottom: 0.75em;
+	font-family:Trebuchet MS, Arial, Serif;
+}
+
+
+h3 {
+	font-size:1.385em;
+	line-height:1;
+	margin-bottom:1em;
+	font-family:Trebuchet MS, Arial, Serif;
+}
+
+h4 {
+	font-size:1.231em;
+	line-height:1.25;
+	margin-bottom:1.25em;
+}
+
+h5 {
+	font-size:1.154em;
+	line-height:1.17em;
+	margin-bottom:1.5em;
+}
+
+h6 {
+	font-size:1em;
+}
+
+h1 img, h2 img, h3 img, h4 img, h5 img, h6 img {
+	margin:0;
+}
+
+p {
+	margin:0 0 1em;
+}
+
+p .left {
+	margin:1.5em 1.5em 1.5em 0;
+	padding:0;
+}
+
+p .right {
+	margin:1.5em 0 1.5em 1.5em;
+	padding:0;
+}
+
+a, a:link {
+	color:#002398;
+	text-decoration:none;
+}
+
+a:focus, a:hover {
+	color:#002398;
+	text-decoration:underline;
+}
+
+a.text-block {
+	text-decoration:underline;
+}
+
+a:visited {
+	color:#731077;
+	text-decoration:none;
+}
+
+.font-medium {
+	font-size:1.231em;
+	line-height:2.5em;
+}
+
+.font-xsmall {
+	font-family:verdana, Arial;
+	font-size:.76em;
+	line-height:1.875em;
+}
+
+.font-smallminus {
+	font-size:.92em;
+	line-height:1.875em;
+}
+
+.font-smallplus {
+	font-size:1.077em;
+	line-height:2em;
+}
+
+.highlight {
+	background-color:#ff0;
+}
+
+.page-title {
+	font-family:Trebuchet MS,Arial,Verdana;
+	font-size:1.846em;
+	margin-bottom:0.5em;
+	line-height:2em;
+	color:#333;
+}
+
+.page-subtitle {
+	font-family:Trebuchet MS,Arial,Verdana;
+	font-size:1.25em;
+	line-height:1.35em;
+	color:#333;
+}
+
+.clr:after {
+	content:"\0020";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+	overflow:hidden;
+}
+
+.clr{
+	display:block;
+}
+
+.page{
+	position:fixed;
+	top:50px;
+	right:100px;	
+	width:500px;
+	height:80%;
+	max-height:600px;
+	background-color:#eee;
+	color:#000;
+	opacity:.8;
+	filter: alpha(opacity=80);  
+    -moz-opacity: 0.8;  
+    -khtml-opacity: 0.8;
+	-webkit-border-radius:12px;
+	-moz-border-radius:12px;
+	-o-border-radius:12px;
+	border-radius:12px;
+	border:1px solid #ccc;
+	padding:20px;
+	-moz-box-shadow:    2px 2px 2px 2px #aaa;
+  	-webkit-box-shadow: 2px 2px 2px 2px #aaa;
+  	box-shadow:         2px 2px 2px 2px #aaa;
+}
+
+.ebay-logo{
+	background: url(data:image/gif;base64,R0lGODlhUQAlAOYAAI8AOb/fYAAAmZmvAICAzP8AAMyzAPn875mZAIxGMP9wcDAwrObyv/8gIKbSIE0AZv+/v9+/U//cUN/f8q+v3x0AhrkAJv/sn/nMAP+fn4YAQNmAAL9gCv9AQMzmgFBQuf/f37PZQCAgpv/mgP/yv5nMAP/PEIBAOfm/AHM5Q//WMA0Gj////0AgafL535/PEL+/5mAQcPmMgP8QEEBAs/9gYOz1z//539nsn/8zM//icI+P0sbicP+AgP+vr+/v+bPMAGBgv1Awmf/MzM/P7P/v78wAGu/SaRAQn//ZQFktVv/SIJkAM+KTAP/vr5m/AMzcUJ+f2QoAk//1z8xmAKzWMHMATTAAeZlNJv/fYP+Pj5mmAP/87xoNhv/pj9Lpj00mYOmfAP/MAJwAOfy2r/nJAFYAYMy/AHwARpy1ANyGAJnGAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH5BAEHAGwALAAAAABRACUAAAf/gGyCg4SFhoeIiSyLjI2Oho6RjImUlZaEkpmFmZKXl5yTh40MpKWkB6GCiwempTaPnpSgi5uRDiW4uSU8qYw4urlfsLGIsyyDnL/AJS+ox6qLt8AOkcSKizQC2tqhjlNeI+EjQMslOJO+5ee01rLY29zsjCRLYvb3ZQhbT7rUtIwhlvl71u4ai2zw0C1ycq+hPQMIEKTRxcARg3IV2RUs9i7hPxZcTDhcksRevohrcoVwFBDYSo0bRXXcppBhQwmLpjyMOECXC0Y2MKayZCwSQpqORjh0wqjkyS26AjAKsOwlQYNFjcITEOlCPTEmVJBgpGMn1FzNWLgo9wompKyc/47GyyrBZERgHlhQBSbVbS1GIHz06NChQYHDiA/n6KBAy5CDW1n82PGBBo0dE1jc8CIhiUiHEKcdeLHsp19kjDJ0SMy6deIGMbYSQbIVyRGHuMuc1VVlWd+rf4usdk28tREzUrZubdEEN+4z5UoPxbSoSI7iMxRA2K5lOGsjTNAo37aCAxUU91ToGFGyYXRdvE5DY9GjeIMikbQYZ8LkgTYkmRGgDRhUUBGGPRcwolRD5LyXlnxsMDJDcRlkMmFi4DEBQHI7MCKCACcUqIYYSzSy4D1QvFdCXhBGyAIExRUAQSbeHZYhE1cIAAMjHwiARYEbiJFEI+3dM1p0DwJXC/+MxS1G2JOEXYjYjf79wIiAPxYoZCMqOMSCB9GxqGQtMsRoJob89cfVlQIkUCAV9nCxyA24kXCkaC1CU+aZZ1K55iICKvGmPVnc4ESXDo3Vki5WEcUCGTFqsd2klFYqRGRsdjGocw0pWtV0MjFJ3IxFyfUnCwIKkIKWDp1oj6cugfpWEZFKAkJrFlihawWnpqoqnPeY4ASdDTG1qEqy/lUja/dFUt93/GmgzY6AwrNCBEnocIGcLJDgrbc3sHAsLo1WwoioruXwWHX67YfjtDxuRe0s45ZQrrmLZGDmDB1cR5wRAOSoTRSMmJpVvfe6swgEhvHp2hjJbRPEIhNsJUJzIzKJ+2meqDHiQw0N85mDAj6YKgABFCyw1cTyAbTxmBw5UgQEgvVg8802+0DqTOPBM2/MPIQg9NDxwYwVXI3ItYDKyn2QrIvGFIS0I3LR8IOpQVgJYVYx/YVxx5kQQQHKmT0N9SxdxzI1x2m3DTbXblsSCAA7) no-repeat;
+	width:81px;
+	height:37px;	
+	position:absolute;
+	top:30px;
+	right:20px;
+}
+
+.mt20{margin-top:20px;}
+.mt30{margin-top:30px;}
+.title{width:100%;margin-bottom: 20px;border-bottom: 1px solid #aaa;}
+.footer{position:absolute;bottom:20px;border-top:1px solid #aaa;padding-top:10px;width:92%;}
+.footer a, .footer a:hover{color:#333;}
+
